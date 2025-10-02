@@ -1,0 +1,5 @@
+bin/programa: src/punteros.cpp
+	c++ src/punteros.cpp -o bin/punteros -I include
+
+ejecutar: bin/programa
+		./bin/programa
