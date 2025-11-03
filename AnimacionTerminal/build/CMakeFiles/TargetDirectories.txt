@@ -1,0 +1,3 @@
+/workspaces/3E252/AnimacionTerminal/build/CMakeFiles/animacion.dir
+/workspaces/3E252/AnimacionTerminal/build/CMakeFiles/edit_cache.dir
+/workspaces/3E252/AnimacionTerminal/build/CMakeFiles/rebuild_cache.dir

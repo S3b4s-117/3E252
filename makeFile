@@ -1,5 +1,12 @@
-bin/programa: src/punteros.cpp
-	c++ src/punteros.cpp -o bin/punteros -I include
+ejemplo : bin/ejemplo
+     ./bin/ejemplo
 
-ejecutar: bin/programa
-		./bin/programa
+bin/punteros : src/punteros.cpp
+c++ src/punteros.cpp -o bin/punteros -I include 
+
+ejecutar : bin/punteros
+	 ./bin/punteros
+
+bin/ejemplo : src/ejemplo.cpp
+	c++ src/ejemplo.cpp -o bin/ejemplo -I include -lftxui-screen
+		
